@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/my-new-tab/sw.js', { scope: '/my-new-tab/' })})}
